@@ -1,0 +1,18 @@
+# OS 파일
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 원작 소설 원고: 공개 저장소에 올리지 않고 이 PC에만 둡니다.
+muvel-import/
+
+# Claude Code 개인 설정
+.claude/settings.local.json
+CLAUDE.local.md
+
+# 모션 레퍼런스 원본(영상, GIF, 뽑아낸 프레임, 비교 이미지)은 올리지 않고 분석 데이터만 올립니다.
+# 레퍼런스는 다른 작품의 영상일 수 있고 용량도 커서, 공개 저장소에 두기에 맞지 않습니다.
+references/motion/**
+!references/motion/**/
+!references/motion/**/*.json
+!references/motion/**/*.md
